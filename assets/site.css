@@ -1,1 +1,38 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+
+@font-face {
+  font-family: "More Perfect DOS";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/assets/fonts/more-perfect-dos/MorePerfectDOSVGA.ttf");
+}
+
+@theme {
+  --background-image-light: url("/assets/image/bg/misc128.gif");
+  --background-image-dark: url("/assets/image/bg/spaceblu.gif");
+  --background-image-dark-secondary: url("/assets/image/bg/gryd014.jpg");
+  --background-image-light-secondary: url("/assets/image/bg/gryl055.jpg");
+  --font-dos: "More Perfect DOS", serif;
+}
+
+@layer base {
+  a {
+    @apply underline;
+  }
+
+  section {
+    outline: 2px white groove;
+    @apply bg-black bg-dark-secondary p-2 mb-4;
+  }
+
+  img {
+    height: auto;
+  }
+}
+
+.outline-tabi {
+  outline: 2px white groove;
+}

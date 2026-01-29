@@ -1,0 +1,16 @@
+<nav class="text-lg">
+  <ol class="bg-dark-secondary p-2 outline-tabi">
+    {% for item in navigation.main %}
+      {% set selected = item.url | pathcheck(page.url) %}
+      <li class="h-8">
+        {% if selected %}
+          <img src="/assets/image/icon/hand-a.ico" alt="Hand pointing to selected link" class="inline">
+          <span class="text-green-500">{{ item.text }}</span>
+        {% else %}
+          <div class="w-4 inline-block"></div>
+          <a href="{{ item.url }}" class="text-green-500 mr-4">{{ item.text }}</a>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ol>
+</nav>

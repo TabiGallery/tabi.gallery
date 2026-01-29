@@ -1,0 +1,13 @@
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+
+<div class="grid gap-4 grid-cols-[1fr_4fr_1fr]">
+  {% include "partials/navigation.njk" %}
+  <main>
+    {{ content | safe }}
+  </main>
+  <div></div>
+</div>
+
+{% endblock %}

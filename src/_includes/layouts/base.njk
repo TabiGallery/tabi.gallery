@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html
+  class="flex flex-col items-center bg-black bg-dark font-serif"
+  lang="en"
+>
+  <head>
+    {% include "partials/site-head.njk" %}
+  </head>
+  <body class="flex min-h-screen w-full max-w-screen-hd grow flex-col text-white max-w-250">
+    {% include "partials/site-header.njk" %}
+
+    {% block content %}{% endblock %}
+
+    {% include "partials/site-footer.njk" %}
+
+    <!-- <script type="module" src="/main.js"></script> -->
+  </body>
+</html>
