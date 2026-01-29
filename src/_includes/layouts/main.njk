@@ -2,12 +2,11 @@
 
 {% block content %}
 
-<div class="grid gap-4 grid-cols-[1fr_4fr_1fr]">
+<div class="grid gap-4 grid-cols-[1fr_4fr]">
   {% include "partials/navigation.njk" %}
-  <main>
+  <main class="w-full">
     {{ content | safe }}
   </main>
-  <div></div>
 </div>
 
 {% endblock %}

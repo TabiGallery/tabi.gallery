@@ -2,7 +2,7 @@
 layout: "layouts/main.njk"
 ---
 
-<section class="prose prose-invert">
+<section>
 
 # Welcome to Tabi Gallery
 
@@ -16,7 +16,7 @@ We think you will like it here!
 
 </section>
 
-<section class="prose prose-invert">
+<section>
 
 ## Check out these cool gifs
 

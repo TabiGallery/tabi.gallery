@@ -1,6 +1,7 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
+@import "./css/defaults.css";
 
 @font-face {
   font-family: "More Perfect DOS";
@@ -16,21 +17,6 @@
   --background-image-dark-secondary: url("/assets/image/bg/gryd014.jpg");
   --background-image-light-secondary: url("/assets/image/bg/gryl055.jpg");
   --font-dos: "More Perfect DOS", serif;
-}
-
-@layer base {
-  a {
-    @apply underline;
-  }
-
-  section {
-    outline: 2px white groove;
-    @apply bg-black bg-dark-secondary p-2 mb-4;
-  }
-
-  img {
-    height: auto;
-  }
 }
 
 .outline-tabi {
