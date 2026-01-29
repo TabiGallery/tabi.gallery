@@ -5,7 +5,8 @@ title: "Contact Info"
 # Contact Info
 
 Email: [hello@tabi.gallery](mailto:hello@tabi.gallery)\
-Mastodon: [@tabigallery@adlsolarpunk.net](https://adlsolarpunk.net/@tabigallery)
+Mastodon: [@tabigallery@adlsolarpunk.net](https://adlsolarpunk.net/@tabigallery)\
+Discord [discord.gg/sPEPgRHUJB](https://discord.gg/sPEPgRHUJB)
 
 Address:
 
