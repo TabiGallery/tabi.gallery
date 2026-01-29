@@ -1,11 +1,15 @@
 {% extends "layouts/base.njk" %}
 
-{% block content %}
+{% block body %}
 
-<div class="grid gap-4 grid-cols-[1fr_4fr]">
+<div class="grid gap-4 md:grid-cols-[minmax(200px,_1fr)_4fr] p-4">
   {% include "partials/navigation.njk" %}
   <main class="w-full">
-    {{ content | safe }}
+    {% block content %}
+      {% if not self.content %}
+        {{ content | safe }}
+      {% endif %}
+    {% endblock %}
   </main>
 </div>
 

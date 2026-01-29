@@ -1,14 +1,14 @@
 <nav class="text-lg">
-  <ol class="bg-dark-secondary p-2 outline-tabi">
+  <ol class="bg-dark-secondary p-2 outline-tabi flex flex-wrap gap-2 md:block">
     {% for item in navigation.main %}
       {% set selected = item.url | pathcheck(page.url) %}
       <li class="h-8">
         {% if selected %}
-          <img src="/assets/image/icon/hand-a.ico" alt="Hand pointing to selected link" class="inline">
+          <img src="/assets/image/icon/hand-a.ico" alt="Hand pointing to selected link" class="hidden md:inline">
           <span class="text-green-500">{{ item.text }}</span>
         {% else %}
-          <div class="w-4 inline-block"></div>
-          <a href="{{ item.url }}" class="text-green-500 mr-4">{{ item.text }}</a>
+          <div class="w-4 hidden md:inline-block"></div>
+          <a href="{{ item.url }}" class="text-green-500 md:mr-4">{{ item.text }}</a>
         {% endif %}
       </li>
     {% endfor %}
