@@ -3,6 +3,16 @@
 {% block content %}
 
 <section>
+  {% if breadcrumb %}
+    <nav>
+      {% for link in breadcrumb %}
+        <a href="{{ link[0] }}">{{ link[1] }}</a>
+        {% if link != (breadcrumb | last) %}
+          &gt;
+        {% endif %}
+      {% endfor %}
+    </nav>
+  {% endif %}
 
   {{ content | safe }}
 

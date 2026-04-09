@@ -11,14 +11,18 @@ export default function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy('assets');
 
 	// Filters
-	eleventyConfig.addFilter("pathcheck", function(path, check) {
+	eleventyConfig.addFilter("pathcheck", function(path, check, subfolders) {
 		let check1 = path.trim();
 		let check2 = check.trim();
 
 		if (!check1.endsWith("/")) check1.concat("/");
 		if (!check2.endsWith("/")) check2.concat("/");
 
-		return check1 === check2;
+		if (subfolders) {
+			return check2.startsWith(check1);
+		} else {
+			return check1 === check2;
+		}
 	});
 
 	return {

@@ -2,19 +2,28 @@
   "main": [
     {
       "text": "Home",
-      "url": "/"
+      "url": "/",
+      "subfolders": false
     },
     {
       "text": "About",
-      "url": "/about/"
+      "url": "/about/",
+      "subfolders": false
     },
     {
       "text": "Contact",
-      "url": "/contact/"
+      "url": "/contact/",
+      "subfolders": false
     },
     {
       "text": "Login",
-      "url": "/login/"
+      "url": "/login/",
+      "subfolders": false
+    },
+    {
+      "text": "Guides",
+      "url": "/guides/",
+      "subfolders": true
     }
   ]
 }

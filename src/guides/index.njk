@@ -1,0 +1,10 @@
+---
+layout: "layouts/article.njk"
+title: "Guides"
+---
+<h1>Guides</h1>
+{% for guide in collections.all %}
+  {% if guide.data.collection == "guide" %}
+    <li><a href="{{ guide.url }}">{{ guide.data.title }}</a></li>
+  {% endif %}
+{% endfor %}
