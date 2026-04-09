@@ -73,14 +73,14 @@ For iOS users, Migadu provides a guide for setting up the email.
 
 [Link to Migadu Apple Mail setup guide](https://www.migadu.com/guides/apple_mail_ios/)
 
-## Nextcloud
+## 4. Nextcloud
 - Admin will send an invitation to the Tabi Nextcloud.
 - Follow link in Tabi email to setup Nextcloud.
 - Use Vaultwarden to create a login.
 - Verify that you can access the shared files correctly.
   - Shared files can be accessed in `Files > Shared > Tabi Core`.
 
-## 4. Loomio
+## 5. Loomio
 - Admin will send an invitation to the Loomio to your Tabi email.
 - Follow link in Tabi email to sign in.
 - Use your Tabi email for future logins, Loomio will always send a login link.
