@@ -18,6 +18,23 @@ We think you will like it here!
 
 <section>
 
+## Have a look at some of the art and facilities we have!!!
+
+<div class="flex flex-wrap gap-2 items-start">
+	<img src="assets/image/photos/entrance.jpg" style="width:250px;height:200px;">
+	<img src="assets/image/photos/meeting_room.jpg" style="width:250px;height:200px;">
+	<img src="assets/image/photos/lounge.jpg" style="width:250px;height:200px;">
+	<img src="assets/image/photos/sensory_room.jpg" style="width:250px;height:200px;">
+	<img src="assets/image/photos/computer_lab.jpg" style="width:250px;height:200px;">
+	<img src="assets/image/photos/pantry.jpg" style="width:250px;height:200px;">
+	<img src="assets/image/photos/kitchen.jpg" style="width:250px;height:200px;">
+	<img src="assets/image/photos/toilet.jpg" style="width:250px;height:200px;">
+	<img src="assets/image/photos/laundry.jpg" style="width:250px;height:200px;">
+</div>
+
+</section>
+<section>
+
 ## Check out these cool gifs
 
 <div class="flex flex-wrap gap-2 items-start">
