@@ -1,0 +1,50 @@
+---
+layout: "layouts/article.njk"
+title: "about"
+---
+<h1>About us</h1>
+<p>
+
+Tabi Gallery is a digital art gallery that provides a safe community space for marginalized individuals and groups, specifically standing behind Queer, First Nations, People of Color, Neurodivergent and Disabled communities. In practice, this means a space in the city where folks can walk in and play board games, video games, and make art, memes & friends :3<br>
+
+We also run and facilitate events, including board game nights, LAN parties, movie nights and more! Our features include:
+<ul>
+<li>Library of over 100 board, card and roleplaying games (free to play!)</li>
+<li>with collection of over 600 DVDs (free to watch!)</li>
+<li>Public use computers (free to use!)</li>
+<li>Quiet room for folks with sensory needs (free to vibe!)</li>
+<li>Kitchen & Laundry facilities (free to eat unnamed items!)</li>
+<li>Gender neutral toilet (free to piss!)</li>
+<li>Arcade machine (free to play!)</li>
+<li>Rentable space for events(not free)</li>
+</ul>
+<br>
+We look forward to welcoming you in!
+
+Book your entry at our <a href="https://cloud.tabi.gallery/apps/appointments/pub/qbyNa4y2rlblAzDr/form">BOOKING PAGE</a> come to one of our events on our <a href ="/calender/">EVENTS CALENDAR</a>, or message us on our <a href="/contact/">SOCIALS</a>
+
+<h2>Opening hours:</h2>
+
+9am-5pm Monday to Friday, booking required.
+
+<h2>Our Values</h2>
+<ol>
+<li>Be a friendly, welcoming space for the Neurodivergent, Queer, PoC and Disabled communities</li>
+<li>Provide a radical and community-centric venue with chill vibes and no entry fee</li>
+<li>Empower the creation of independent art, particularly from those with unique and underrepresented perspectives</li>
+<li>Explore the fringes of human-made digital art while advocating for digital justice</li>
+<li>Provide a calm and cozy environment for folks to hang out and make friends</li>
+<li>While the space is not wheelchair accessible; we will actively practice inclusion and strive to make the space accessible for those facing disabilities</li>
+<li>both visible and invisible.</li>
+<li>Build a community where marginalised voices are listened to and taken seriously, to foster learning and ongoing improvement of accessibility</li>
+</ol>
+</p>
+
+<ul class="ml-4 list-none">
+{% for about in collections.all %}
+  {% if about.data.collection == "about" %}
+    <li class="list-none"><a href="{{ about.url }}">{{ about.data.title }}</a></li>
+
+  {% endif %}
+{% endfor %}
+</ul>
