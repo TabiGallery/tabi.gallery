@@ -1,0 +1,22 @@
+{% extends "layouts/base.njk" %}
+
+{% block body %}
+
+<div class="grid gap-4 md:grid-cols-[minmax(200px,_1fr)_4fr] p-4">
+  {% include "partials/navigation.njk" %}
+  <section class="w-full h-full">
+    <h1>Events</h1>
+    <p>
+      Tabi Gallery's Meeting room is free to book for individuals and grassroots organisations.
+    </p>
+    <a href="https://tabi.gallery/bookings" target="_blank">Book an Event</a>
+  </section>
+</div>
+
+<section class="mx-4">
+  <iframe class="max-w-full w-full" width="740" height="800" src="https://cloud.tabi.gallery/apps/calendar/embed/id2LApp3jp2Rp2xW"></iframe>
+</section>
+
+{% endblock %}
+
+

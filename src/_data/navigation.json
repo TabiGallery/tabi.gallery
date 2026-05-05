@@ -16,6 +16,11 @@
       "subfolders": false
     },
     {
+      "text": "Events",
+      "url": "/events/",
+      "subfolders": false
+    },
+    {
       "text": "Login",
       "url": "/login/",
       "subfolders": false
