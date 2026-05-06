@@ -10,7 +10,7 @@ Tabi Gallery is a digital art gallery located in Adelaide, South Australia.
 
 You can learn more about us on our [About Page](/about/)!
 
-If you are in South Australia, and would like to visit, check out our [Contact Page](/contact/).
+If you are in South Australia, and would like to visit, [contact us](/contact/) or <a href="https://cloud.tabi.gallery/apps/appointments/pub/qbyNa4y2rlblAzDr/form">book an event</a>.
 
 We think you will like it here!
 
@@ -21,15 +21,13 @@ We think you will like it here!
 ## Have a look at some of the art and facilities we have!!!
 
 <div class="flex flex-wrap gap-2 items-start">
-	<img src="assets/image/photos/entrance.jpg" style="width:250px;height:200px;">
-	<img src="assets/image/photos/meeting_room.jpg" style="width:250px;height:200px;">
-	<img src="assets/image/photos/lounge.jpg" style="width:250px;height:200px;">
-	<img src="assets/image/photos/sensory_room.jpg" style="width:250px;height:200px;">
-	<img src="assets/image/photos/computer_lab.jpg" style="width:250px;height:200px;">
+	<img src="assets/image/photos/entrance.jpg" style="width:250px;">
+	<img src="assets/image/photos/meeting_room.jpg" style="width:250px;">
+	<img src="assets/image/photos/lounge.jpg" style="width:250px;">
+	<img src="assets/image/photos/sensory_room.jpg" style="width:250px;">
+	<img src="assets/image/photos/computer_lab.jpg" style="width:250px;">
 	<img src="assets/image/photos/pantry.jpg" style="width:250px;height:200px;">
-	<img src="assets/image/photos/kitchen.jpg" style="width:250px;height:200px;">
-	<img src="assets/image/photos/toilet.jpg" style="width:250px;height:200px;">
-	<img src="assets/image/photos/laundry.jpg" style="width:250px;height:200px;">
+	<img src="assets/image/photos/kitchen.jpg" style="width:250px;">
 </div>
 
 </section>
